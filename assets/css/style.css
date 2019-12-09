@@ -100,6 +100,7 @@ a.btn-border {
 
 .navbar {
     padding: 14px 10% !important;
+    background-color: white;
 }
 
 .nav-item {
@@ -114,6 +115,7 @@ a.nav-link {
     padding: 4px;
     color: #333 !important;
     text-decoration: none;
+    opacity: 0.7;
 }
 
 a.nav-link.active {
@@ -170,9 +172,9 @@ a.navbar-brand {
 }
 
 .hero-content h1 {
-    font-size: 38px;
+    font-size: 46px;
     padding-bottom: 10px;
-    font-weight: 300;
+    font-weight: 400;
     color: white !important;
     font-family: 'Muli', sans-serif;
 }
@@ -268,6 +270,11 @@ a.logo {
     margin-bottom: 35px;
 }
 
+.company-logo {
+    max-width: 20% !important;
+    margin-bottom: 22px;
+}
+
 .card {
     font-size: 1em;
     overflow: hidden;
@@ -277,6 +284,16 @@ a.logo {
     border: none !important;
     text-decoration: none !Important;
     background: #fff !important;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.02);
+}
+
+.faq-card:hover {
+    box-shadow: none !important;
+    transform: scale(1);
 }
 
 .card-img-top {
@@ -311,7 +328,14 @@ a.logo {
     padding-top: 16px;
 }
 
-.source {
+.description {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.location {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 8px;
@@ -319,11 +343,10 @@ a.logo {
     opacity: 0.4;
 }
 
-.article-type {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 11px;
-    margin-bottom: 12px;
+.company {
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 2px;
     color: #1F2430;
 }
 
@@ -363,12 +386,22 @@ a.logo {
 ***/
 
 .hero-background {
-    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.75), rgba(20, 21, 23, 1)), url("../img/volta_bg.gif");
+    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.55), rgba(20, 21, 23, 1)), url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     width: 100%;
     height: 88vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .hero-background {
+        background-attachment: scroll;
+    }
 }
 
 .the-problem-content {
@@ -435,7 +468,8 @@ a.logo {
 .about-content {
     margin: 175px auto;
     text-align: left;
-    max-width: 850px;
+    font-size: 18px;
+    max-width: 750px;
 }
 
 .about-content h2 {
@@ -461,7 +495,7 @@ a.logo {
 }
 
 .about-content p {
-    color: #ddd;
+    color: #333;
 }
 
 .quote-content {
@@ -528,7 +562,6 @@ a.logo {
 
 .text-column p {
     margin-bottom: 8px;
-    color: #DDDDDD;
 }
 
 .text-column .title-tag {
@@ -634,6 +667,13 @@ a.btn-border.btn-media-kit {
     max-width: 850px;
 }
 
+.faq-content p {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+}
+
 .faq-content .section-text {
     text-align: center !important;
     color: #333;
@@ -675,18 +715,6 @@ a.btn-border.btn-media-kit {
 
 .card-body {
     padding: 20px 50px 10px 20px;
-}
-
-.card-body p {
-    margin: 0 auto;
-    padding-bottom: 10px;
-    font-weight: normal;
-    line-height: 1.5;
-    font-weight: 400;
-    letter-spacing: normal;
-    color: #ddd !important;
-    font-size: 16px;
-    opacity: 0.9;
 }
 
 @media only screen and (max-width: 768px) {

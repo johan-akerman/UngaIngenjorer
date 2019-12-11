@@ -398,6 +398,10 @@ a.logo {
     background-size: cover;
 }
 
+.home-hero {
+    height: 100vh;
+}
+
 @media only screen and (max-device-width: 1366px) {
     .hero-background {
         background-attachment: scroll;

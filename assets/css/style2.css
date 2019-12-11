@@ -1,0 +1,149 @@
+/***
+=== General ===
+***/
+
+body {
+    background-color: #F5F7FA !important;
+}
+
+p {
+    font-family: 'muli', sans-serif;
+    color: #dddddd;
+}
+
+a {
+    cursor: pointer;
+}
+
+.section-title {
+    text-align: center;
+    color: #1F2430;
+}
+
+.title-tag.left {
+    text-align: left !important;
+}
+
+.section-title.left {
+    text-align: left !important;
+}
+
+.title-tag {
+    text-transform: uppercase !important;
+    margin-bottom: 4px !Important;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ccc !important;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .title-tag {
+        text-align: left;
+    }
+    .section-title {
+        text-align: left;
+    }
+}
+
+
+/* Buttons */
+
+.btn-border {
+    border: 0.5px solid #1F2430 !important;
+    border-radius: 30px !important;
+    font-size: 13px !Important;
+    margin: 8px 8px 0 0;
+    color: #1F2430;
+    background: transparent;
+}
+
+.btn-container {
+    margin: 75px auto 0 auto;
+    max-width: 500px;
+}
+
+a.btn-border {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 12px 24px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.45s ease 0s;
+}
+
+.btn-border:hover {
+    background-color: #1F2430 !important;
+    color: #fff !important;
+}
+
+.btn-border.active {
+    background-color: #1F2430 !important;
+    color: #fff !important;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #1F2430;
+}
+
+.btn-white:hover {
+    transform: scale(1.05);
+    background-color: #fff !important;
+    color: #1F2430 !important;
+}
+
+
+/***
+=== Index / Home ===
+***/
+
+.hero-background {
+    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.55), rgba(20, 21, 23, 1)), url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Hero Section */
+
+.hero-content {
+    margin: 0 auto;
+    padding: 32vh 10% 0 10%;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.hero-content h1 {
+    font-size: 58px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: white !important;
+    font-family: 'Muli', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-content {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-content {
+        padding: 250px 20px 75px 20px;
+    }
+    .hero-content h1 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .hero-content {
+        padding: 105px 20px 75px 20px;
+    }
+}

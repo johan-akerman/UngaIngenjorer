@@ -7,7 +7,7 @@ body {
 }
 
 p {
-    font-family: 'muli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -94,13 +94,24 @@ a.btn-border {
     color: #1F2430 !important;
 }
 
+.btn-blue {
+    background-color: #3975FF;
+    border: none !important;
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #2D66EA !important;
+    color: white;
+    border: none;
+}
+
 
 /* Navigation bar */
 
 .navbar {
-    padding: 14px 6% !important;
+    padding: 14px 8% !important;
     background-color: white;
-    border-bottom: 0.75px solid #ddd
 }
 
 .nav-item {
@@ -120,18 +131,18 @@ a.nav-link {
 
 a.nav-link.active {
     opacity: 1;
-    color: #5556FC !important;
+    color: #3975FF !important;
 }
 
 a.nav-link:hover {
-    color: #5556FC !important;
+    color: #3975FF !important;
     opacity: 1;
 }
 
 a.navbar-brand {
     font-size: 30px;
     color: #333 !important;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .navbar-brand img {
@@ -147,7 +158,7 @@ a.navbar-brand {
     border-radius: 6px;
     margin: 0;
     color: #fff !important;
-    background: #5556FC;
+    background: #3975FF;
     opacity: 1 !important;
 }
 
@@ -158,7 +169,7 @@ a.btn-navbar {
 }
 
 .btn-navbar:hover {
-    background-color: #5051DE !important;
+    background-color: #2D66EA !important;
     color: #fff !important;
 }
 
@@ -210,7 +221,8 @@ a.btn-navbar:hover {
 /* Hero Section */
 
 .half-hero-container {
-    margin-top: 100px !important;
+    margin-top: 125px !important;
+    margin-bottom: 125px !important;
 }
 
 .hero-content {
@@ -257,7 +269,7 @@ a.btn-navbar:hover {
 }
 
 .footer-container {
-    padding: 75px 12%;
+    padding: 75px 6%;
     background-color: white !important;
 }
 
@@ -268,7 +280,7 @@ a.btn-navbar:hover {
 }
 
 #myFooter h5 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     margin-bottom: 8px;
     margin-top: 10px;
@@ -285,6 +297,7 @@ a.logo {
     margin-bottom: 32px !important;
     line-height: 1 !important;
     color: #1F2430;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .logo-column {
@@ -456,6 +469,10 @@ a.logo {
     color: white;
 }
 
+.hero-background h1 {
+    font-family: 'Varela Round', sans-serif;
+}
+
 .hero-background-company {
     background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.55), rgba(20, 21, 23, 1)), url("../img/hero.jpg");
     background-repeat: no-repeat;
@@ -604,7 +621,7 @@ a.logo {
 
 .grid-content {
     margin: 75px auto 75px auto;
-    padding: 0px 12.5% 0px 12.5%;
+    padding: 0px 10% 0px 10%;
 }
 
 .row.grid-row {
@@ -623,7 +640,7 @@ a.logo {
 }
 
 .text-column {
-    padding-top: 125px;
+    padding-top: 75px;
     padding-bottom: 15px;
     padding-right: 100px !Important;
     padding-left: 0 !important;
@@ -639,10 +656,12 @@ a.logo {
 
 .text-column h1 {
     color: #1F2430;
+    font-size: 42px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .text-column p {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .text-column .title-tag {
@@ -651,6 +670,22 @@ a.logo {
 
 .image-column img {
     width: 100%;
+}
+
+.image-left-column {
+    padding-right: 70px !Important;
+    padding-left: 0px !important;
+    height: 550px !important;
+}
+
+.image-left-column img {
+    border-radius: 13px;
+    display: block;
+    height: 100%;
+}
+
+.text-right-column {
+    text-align: left !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -895,6 +930,7 @@ a.btn-border.btn-media-kit {
 .what-we-do-content h1 {
     font-size: 36px;
     margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .what-we-do-row {
@@ -937,12 +973,9 @@ a.btn-border.btn-media-kit {
     color: rgb(33, 37, 41);
 }
 
-.join-container {
-    background-color: #F5F7FA;
-}
-
 .join-content {
-    padding: 0px 10% 100px 10%;
+    margin: 150px auto;
+    max-width: 800px;
 }
 
 .card-container-content h1 {
@@ -981,4 +1014,36 @@ a.btn-border.btn-media-kit {
 .pros-holder h2 {
     margin-top: 8px;
     font-size: 26px;
+}
+
+.centered-content {
+    margin: 150px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.screenshot {
+    width: 80% !important;
+}
+
+.modal {
+    border-color: transparent !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    padding: 32px !Important;
+    padding-bottom: 16px !important;
+}
+
+.modal-body {
+    padding: 32px !important;
+    padding-top: 0px !important;
+}
+
+.modal-body h1 {
+    margin-top: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32px;
+    padding-top: 0;
 }

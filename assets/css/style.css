@@ -172,7 +172,7 @@ a.navbar-brand {
 }
 
 .hero-content h1 {
-    font-size: 46px;
+    font-size: 64px;
     padding-bottom: 10px;
     font-weight: 400;
     color: white !important;
@@ -386,7 +386,7 @@ a.logo {
 ***/
 
 .hero-background {
-    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.55), rgba(20, 21, 23, 1)), url("../img/hero.jpg");
+    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.55), rgba(20, 21, 23, 1)), url("../img/video-norrsken.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

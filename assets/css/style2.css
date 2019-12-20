@@ -95,7 +95,7 @@ a.btn-border {
 }
 
 .btn-blue {
-    background-color: #3975FF;
+    background-color: #F5C634;
     border: none !important;
     color: white;
 }
@@ -131,11 +131,11 @@ a.nav-link {
 
 a.nav-link.active {
     opacity: 1;
-    color: #3975FF !important;
+    color: #F5C634 !important;
 }
 
 a.nav-link:hover {
-    color: #3975FF !important;
+    color: #F5C634 !important;
     opacity: 1;
 }
 
@@ -158,7 +158,7 @@ a.navbar-brand {
     border-radius: 6px;
     margin: 0;
     color: #fff !important;
-    background: #3975FF;
+    background: #F5C634;
     opacity: 1 !important;
 }
 
@@ -221,13 +221,14 @@ a.btn-navbar:hover {
 /* Hero Section */
 
 .half-hero-container {
-    margin-top: 125px !important;
+    background-color: #F7F8F9;
+    padding-top: 15vh;
     margin-bottom: 125px !important;
 }
 
 .hero-content {
     margin: 0 auto;
-    padding: 32vh 10% 0 10%;
+    padding: 0vh 10% 0 10%;
     text-align: center;
     max-width: 1000px;
 }
@@ -620,7 +621,7 @@ a.logo {
 }
 
 .grid-content {
-    margin: 75px auto 75px auto;
+    margin: 0px auto 75px auto;
     padding: 0px 10% 0px 10%;
 }
 
@@ -635,9 +636,7 @@ a.logo {
     margin-bottom: 18px;
 }
 
-.grid-row {
-    margin-top: 20px;
-}
+.grid-row {}
 
 .text-column {
     padding-top: 75px;

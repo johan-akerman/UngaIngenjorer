@@ -458,12 +458,13 @@ a.logo {
 ***/
 
 .hero-background {
-    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.55), rgba(20, 21, 23, 1)), url("../img/video-norrsken.gif");
+    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.55), rgba(20, 21, 23, 1)), url("../img/");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
+    padding-top: 25vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -548,7 +549,7 @@ a.logo {
 ***/
 
 .newsroom-background {
-    background: url("../img/hero-brilliant-minds.png");
+    background: url("../img/video-norrsken.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -640,7 +641,7 @@ a.logo {
 .grid-row {}
 
 .text-column {
-    padding-top: 150px;
+    padding-top: 85px;
     padding-bottom: 15px;
     padding-right: 100px !Important;
     padding-left: 0 !important;
@@ -660,6 +661,10 @@ a.logo {
     font-family: 'Varela Round', sans-serif;
 }
 
+#hero-text-column {
+    padding-top: 150px;
+}
+
 .text-column p {
     margin-bottom: 16px;
 }
@@ -677,12 +682,18 @@ a.logo {
 .image-left-column img {
     border-radius: 13px;
     display: block;
-    height: 100%;
 }
 
 .image-column img {
     width: 100%;
+    background-position: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.image-column img {}
 
 .text-right-column {
     text-align: left !important;
@@ -778,7 +789,7 @@ a.btn-border.btn-media-kit {
 ***/
 
 .faq-container {
-    background-color: #FFE38B;
+    background-color: #FFEAA7;
 }
 
 .faq-content {

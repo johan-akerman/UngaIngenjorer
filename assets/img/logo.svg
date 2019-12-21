@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="128" viewBox="0 0 1024 128">
-  <text id="UNGA_INGENJÖRER" data-name="UNGA INGENJÖRER" transform="translate(512 101)" font-size="109" font-family="Roboto-Regular, Roboto" letter-spacing="0.03em"><tspan x="-511.607" y="0">UNGA </tspan><tspan y="0" font-family="Roboto-Thin, Roboto" font-weight="200">INGENJÖRER</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="46.079" height="46.079" viewBox="0 0 46.079 46.079">
+  <path id="ic_stars_24px" d="M25.016,2A23.039,23.039,0,1,0,48.079,25.039,23.028,23.028,0,0,0,25.016,2Zm9.769,36.863-9.746-5.875-9.746,5.875,2.58-11.082L9.28,20.339l11.335-.968,4.424-10.46,4.424,10.437,11.335.968L32.2,27.758Z" transform="translate(-2 -2)" fill="#f5c634"/>
 </svg>

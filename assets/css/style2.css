@@ -101,7 +101,7 @@ a.btn-border {
 }
 
 .btn-blue:hover {
-    background-color: #2D66EA !important;
+    background-color: #000 !important;
     color: white;
     border: none;
 }
@@ -141,6 +141,7 @@ a.nav-link:hover {
 
 a.navbar-brand {
     font-size: 30px;
+    padding-right: 8px;
     color: #333 !important;
     font-family: 'Varela Round', sans-serif;
 }
@@ -169,7 +170,7 @@ a.btn-navbar {
 }
 
 .btn-navbar:hover {
-    background-color: #2D66EA !important;
+    background-color: #000 !important;
     color: #fff !important;
 }
 
@@ -222,8 +223,8 @@ a.btn-navbar:hover {
 
 .half-hero-container {
     background-color: #F7F8F9;
-    padding-top: 15vh;
-    margin-bottom: 125px !important;
+    padding-top: 8vh;
+    padding-bottom: 1vh;
 }
 
 .hero-content {
@@ -639,7 +640,7 @@ a.logo {
 .grid-row {}
 
 .text-column {
-    padding-top: 75px;
+    padding-top: 150px;
     padding-bottom: 15px;
     padding-right: 100px !Important;
     padding-left: 0 !important;
@@ -667,10 +668,6 @@ a.logo {
     margin-top: 100px;
 }
 
-.image-column img {
-    width: 100%;
-}
-
 .image-left-column {
     padding-right: 70px !Important;
     padding-left: 0px !important;
@@ -681,6 +678,10 @@ a.logo {
     border-radius: 13px;
     display: block;
     height: 100%;
+}
+
+.image-column img {
+    width: 100%;
 }
 
 .text-right-column {
@@ -777,7 +778,7 @@ a.btn-border.btn-media-kit {
 ***/
 
 .faq-container {
-    background-color: #F5F7FA;
+    background-color: #FFE38B;
 }
 
 .faq-content {
@@ -972,9 +973,15 @@ a.btn-border.btn-media-kit {
     color: rgb(33, 37, 41);
 }
 
+.join-container {
+    background-color: #F7F8F9;
+}
+
 .join-content {
-    margin: 150px auto;
-    max-width: 800px;
+    margin: 0px auto;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    max-width: 550px;
 }
 
 .card-container-content h1 {
@@ -1015,9 +1022,21 @@ a.btn-border.btn-media-kit {
     font-size: 26px;
 }
 
+.centered-container {
+    background-color: #F7F8F9;
+}
+
 .centered-content {
-    margin: 150px auto;
+    margin: 0 auto;
+    padding-top: 25vh;
     max-width: 900px;
+    text-align: center;
+}
+
+.banner-content {
+    margin: 0 auto;
+    padding: 100px 25px;
+    max-width: 800px;
     text-align: center;
 }
 
@@ -1045,4 +1064,8 @@ a.btn-border.btn-media-kit {
     font-family: 'Varela Round', sans-serif;
     font-size: 32px;
     padding-top: 0;
+}
+
+.artiklar-container {
+    background-color: #F7F8F9;
 }

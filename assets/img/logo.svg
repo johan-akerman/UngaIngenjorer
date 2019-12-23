@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="46.079" height="46.079" viewBox="0 0 46.079 46.079">
-  <path id="ic_stars_24px" d="M25.016,2A23.039,23.039,0,1,0,48.079,25.039,23.028,23.028,0,0,0,25.016,2Zm9.769,36.863-9.746-5.875-9.746,5.875,2.58-11.082L9.28,20.339l11.335-.968,4.424-10.46,4.424,10.437,11.335.968L32.2,27.758Z" transform="translate(-2 -2)" fill="#f5c634"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="Group_499" data-name="Group 499" transform="translate(-17884 3008)">
+    <rect id="Rectangle_190" data-name="Rectangle 190" width="200" height="200" rx="100" transform="translate(17884 -3008)" fill="#f5c634"/>
+    <g id="Group_498" data-name="Group 498" transform="translate(-5 -3)">
+      <text id="U" transform="translate(17979.5 -2851.5)" fill="#fff" stroke="#f5c634" stroke-width="4" font-size="141" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.03em"><tspan x="-46.403" y="0">U</tspan></text>
+      <text id="U-2" data-name="U" fill="#fff" stroke="#f5c634" transform="translate(17999.5 -2851.5)" stroke-width="4" font-size="141" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.03em"><tspan x="-46.403" y="0">U</tspan></text>
+    </g>
+  </g>
 </svg>

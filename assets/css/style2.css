@@ -110,8 +110,13 @@ a.btn-border {
 /* Navigation bar */
 
 .navbar {
-    padding: 14px 8% !important;
-    background-color: white;
+    padding: 10px 8% !important;
+    background-color: transparent;
+}
+
+.navbar-logo {
+    width: 42px !important;
+    margin-right: 16px;
 }
 
 .nav-item {
@@ -140,7 +145,8 @@ a.nav-link:hover {
 }
 
 a.navbar-brand {
-    font-size: 30px;
+    font-size: 26px;
+    padding-top: 8px;
     padding-right: 8px;
     color: #333 !important;
     font-family: 'Varela Round', sans-serif;
@@ -264,72 +270,6 @@ a.btn-navbar:hover {
 }
 
 
-/* Footer section */
-
-#myFooter {
-    color: #1F2430 !important;
-}
-
-.footer-container {
-    padding: 75px 6%;
-    background-color: white !important;
-}
-
-#myFooter ul {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.6;
-}
-
-#myFooter h5 {
-    font-size: 13px;
-    line-height: 24px;
-    margin-bottom: 8px;
-    margin-top: 10px;
-    line-height: 24px;
-    color: #1F2430 !important;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-a.logo {
-    font-size: 32px !Important;
-    opacity: 1 !important;
-    padding-top: 100px !important;
-    margin-bottom: 32px !important;
-    line-height: 1 !important;
-    color: #1F2430;
-    font-family: 'Varela Round', sans-serif;
-}
-
-.logo-column {
-    padding-top: 5px;
-    padding-bottom: 16px;
-}
-
-#myFooter a {
-    text-decoration: none !important;
-    color: #333 !important;
-    line-height: 1.5;
-    font-weight: 400;
-    font-size: 14px;
-    opacity: 0.8;
-}
-
-#myFooter a:hover,
-#myFooter a:focus {
-    text-decoration: none !important;
-    opacity: 1;
-}
-
-@media screen and (max-width: 767px) {
-    #myFooter {}
-    .footer-container {
-        padding: 75px 10% 32px 10%;
-    }
-}
-
-
 /* card section */
 
 .card-container-content {
@@ -436,10 +376,10 @@ a.logo {
 
 /* Banner / call to action */
 
-.banner {
+.banner-content {
     text-align: center;
     max-width: 650px;
-    margin: 100px auto 50px auto;
+    margin: 100px auto 120px auto;
 }
 
 .banner h1 {
@@ -657,7 +597,7 @@ a.logo {
 
 .text-column h1 {
     color: #1F2430;
-    font-size: 42px;
+    font-size: 36px;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -684,8 +624,11 @@ a.logo {
     display: block;
 }
 
-.image-column img {
-    width: 100%;
+#home-image {
+    background-image: url("../img/austin-distel-wD1LRb9OeEo-unsplash.jpg");
+    border-radius: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     height: 100%;
     background-position: center;
@@ -789,7 +732,7 @@ a.btn-border.btn-media-kit {
 ***/
 
 .faq-container {
-    background-color: #FFEAA7;
+    background-color: #FFF8E2;
 }
 
 .faq-content {
@@ -931,7 +874,7 @@ a.btn-border.btn-media-kit {
 
 .what-we-do-content {
     padding: 100px 10% 50px 10%;
-    text-align: left;
+    text-align: center;
 }
 
 .what-we-do-holder p {
@@ -944,6 +887,11 @@ a.btn-border.btn-media-kit {
     font-family: 'Varela Round', sans-serif;
 }
 
+.what-we-do-content .text {
+    max-width: 700px;
+    margin: 16px auto;
+}
+
 .what-we-do-row {
     margin-bottom: 90px;
     margin-top: 100px;
@@ -953,6 +901,8 @@ a.btn-border.btn-media-kit {
     font-size: 22px;
     margin-top: 16px;
 }
+
+#what-we-do-company {}
 
 @media only screen and (max-width: 768px) {
     .what-we-do-content {
@@ -1034,7 +984,7 @@ a.btn-border.btn-media-kit {
 }
 
 .centered-container {
-    background-color: #F7F8F9;
+    background-color: #FFF8E2;
 }
 
 .centered-content {
@@ -1044,15 +994,28 @@ a.btn-border.btn-media-kit {
     text-align: center;
 }
 
+.centered-content h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 42px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.centered-content p {
+    max-width: 750px;
+    margin: 8px auto;
+}
+
 .banner-content {
     margin: 0 auto;
-    padding: 100px 25px;
+    padding: 100px 25px 150px 25px;
     max-width: 800px;
     text-align: center;
 }
 
 .screenshot {
-    width: 80% !important;
+    margin: 0 auto !important;
+    max-width: 1100px !important;
 }
 
 .modal {
@@ -1079,4 +1042,126 @@ a.btn-border.btn-media-kit {
 
 .artiklar-container {
     background-color: #F7F8F9;
+}
+
+header {
+    position: relative !important;
+    background-color: black !important;
+    height: 91vh !important;
+    /*
+    margin-left: 10px;
+    margin-right: 10px !important;
+    border-radius: 10px;
+*/
+    padding-top: -50px;
+    min-height: 25rem !important;
+    overflow: hidden !important;
+}
+
+header video {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    z-index: 0 !important;
+    -ms-transform: translateX(-50%) translateY(-50%) !important;
+    -moz-transform: translateX(-50%) translateY(-50%) !important;
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+
+header .container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+header .container h1 {
+    font-size: 42px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+header .overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    background-color: black !important;
+    opacity: 0.50 !important;
+    z-index: 1 !important;
+}
+
+#vid-hero {
+    padding: 30vh 0;
+    color: white;
+}
+
+
+/*
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}*/
+
+
+/* Footer section */
+
+.footer-container {
+    padding: 75px 6%;
+    background-color: #F5C634 !important;
+}
+
+#myFooter ul {
+    list-style-type: none !important;
+    padding-left: 0;
+    line-height: 1.6;
+}
+
+.footer-logo {
+    width: 76px !important;
+    margin-right: 16px;
+}
+
+#myFooter h5 {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    color: #fff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+.logo-column {
+    padding-top: 5px;
+    padding-bottom: 16px;
+}
+
+#myFooter a {
+    text-decoration: none !important;
+    color: #fff !important;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none !important;
+    opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {}
+    .footer-container {
+        padding: 75px 10% 32px 10%;
+    }
 }

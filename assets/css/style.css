@@ -83,7 +83,7 @@ a.btn-border {
     font-size: 16px;
     text-align: center !important;
     letter-spacing: .07em;
-    font-family: 'muli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a.nav-link {
@@ -122,6 +122,7 @@ a.navbar-brand {
     color: #fff !important;
     background: #F5C634;
     opacity: 1 !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a.btn-navbar {
@@ -188,7 +189,7 @@ a.btn-navbar:hover {
     padding-bottom: 10px;
     font-weight: 400;
     color: white !important;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
@@ -277,7 +278,7 @@ a.btn-navbar:hover {
 
 .grid-content h1 {
     font-size: 36px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 700;
     margin-bottom: 18px;
 }
@@ -318,6 +319,10 @@ a.btn-navbar:hover {
 .how-it-works-row {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.how-it-works-column-text h1 {
+    font-size: 27px !important;
 }
 
 #home-image {
@@ -378,7 +383,7 @@ a.btn-navbar:hover {
 ***/
 
 .faq-container {
-    background-color: #FFF8E2;
+    background-color: #F5F7FA;
 }
 
 .faq-content {

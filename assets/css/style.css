@@ -567,6 +567,15 @@ a.btn-navbar:hover {
     padding: 0px 10% 0px 10%;
 }
 
+#how-it-works-content {
+    margin: 125px auto 0px auto;
+    padding: 0px 15% 0px 15%;
+}
+
+#how-it-works-conetent h1 {
+    padding-bottom: 50px;
+}
+
 .row.grid-row {
     padding-left: 0 !important;
 }
@@ -617,6 +626,15 @@ a.btn-navbar:hover {
     padding-right: 70px !Important;
     padding-left: 0px !important;
     height: 550px !important;
+}
+
+.image-left-column-how-it-works {
+    padding-right: 100px !Important;
+}
+
+.how-it-works-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .image-left-column img {

@@ -286,7 +286,7 @@ a.btn-navbar:hover {
 .grid-row {}
 
 .text-column {
-    padding-top: 85px;
+    padding-top: 46px;
     padding-bottom: 15px;
     padding-right: 100px !Important;
     padding-left: 0 !important;
@@ -322,6 +322,7 @@ a.btn-navbar:hover {
 }
 
 .how-it-works-column-text h1 {
+    padding-top: 40px;
     font-size: 27px !important;
 }
 
@@ -392,6 +393,10 @@ a.btn-navbar:hover {
     max-width: 850px;
 }
 
+.faq-content h1 {
+    font-family: 'Varela Round', sans-serif;
+}
+
 .faq-content p {
     font-size: 15px;
     margin-top: 0;
@@ -412,6 +417,7 @@ a.btn-navbar:hover {
     line-height: 40px;
     cursor: default;
     font-size: 22px;
+    font-family: 'Varela Round', sans-serif;
     color: #1F2430 !important;
     text-align: left;
     font-weight: 300;
@@ -482,6 +488,7 @@ a.btn-navbar:hover {
 .what-we-do-row h2 {
     font-size: 22px;
     margin-top: 16px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
@@ -515,6 +522,7 @@ a.btn-navbar:hover {
 
 .pros-holder h2 {
     margin-top: 8px;
+    font-family: 'Varela Round', sans-serif;
     font-size: 26px;
 }
 
@@ -546,6 +554,10 @@ a.btn-navbar:hover {
     padding: 100px 25px 150px 25px;
     max-width: 800px;
     text-align: center;
+}
+
+.banner-content h1 {
+    font-family: 'Varela Round', sans-serif;
 }
 
 .screenshot {
@@ -607,6 +619,7 @@ header .overlay {
 #vid-hero {
     padding: 30vh 0;
     color: white;
+    max-width: 650px;
 }
 
 

@@ -35,6 +35,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--    Chart.js is open source and available under the MIT license. Read more at https://www.chartjs.org/-->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </head>
 
 <body>
@@ -73,7 +77,9 @@
         <div class="container h-100">
 
             <div class="hero-content" id="vid-hero">
-                <h1 class="display-3 ">Snart förändrar vi arbetsmarknaden för ingenjörsstudenter</h1>
+                <h1>Vi förändrar arbetsmarknaden för ingenjörsstudenter</h1>
+                <p>Det enda sättet att göra ett bra jobb är att älska vad man gör. Vi hjälper dig som ingenjörsstudent att utforska dina intressen och hitta ett sommarjobb som du älskar. Snart lanserar vi vår plattform. Gå med redan nu.
+                </p>
 
                 <a class="btn btn-border btn-blue typeform-share button" href="https://johankerman924416.typeform.com/to/hzoZZE" data-mode="popup" data-hide-headers="true" data-hide-footer="false" target="_blank">Gå med</a>
             </div>
@@ -81,33 +87,35 @@
         </div>
     </header>
 
+
     <!-- What we do Section -->
     <div class="what-we-do-container " id="what-we-do ">
         <div class="what-we-do-content ">
 
             <h1 class="animated ">Hur fungerar det?</h1>
-            <p class="text">Snart lanserar vi vår plattform som hjälper unga ingenjörsstudenter att kickstarta deras karriärer genom att matcha ihop dem med företag som erbjuder spännande sommarjobb.
+            <p class="text">Unga Ingenjörer är ett praktikprogram med målet att hjälpa ingenjörsstudenter att kickstarta deras karriärer genom att matcha ihop dem med spännande sommarjobb.
+
             </p>
 
             <div class="row what-we-do-row ">
                 <div id="what-we-do-1 " class="animated col-lg-4 col-md-6 col-sm-12 what-we-do-holder ">
 
                     <img style="width: 10%;" src="assets/img/icons/user-plus.svg">
-                    <h2>Skapa en profil</h2>
-                    <p>Trött på att skicka in ditt CV på massor med hemsidor? Skapa en professionell profil hos oss så slipper du fylla i samma svar flera gånger.
+                    <h2>1. Skapa en profil</h2>
+                    <p>Trött på att skicka in ditt CV på massor med olika hemsidor? Skapa en professionell profil hos oss och sök alla jobb på ett ställe.
                     </p>
                 </div>
 
                 <div id="what-we-do-2 " class="animated col-lg-4 col-md-6 col-sm-12 what-we-do-holder ">
                     <img style="width: 10%;" src="assets/img/icons/file-text.svg">
-                    <h2>Sök lediga tjänster</h2>
-                    <p>På vår sida hittar du snart massvis med spännande sommarjobb. Sök enkelt med ett klick.
+                    <h2>2. Sök lediga tjänster</h2>
+                    <p>På vår sida hittar du snart massvis med spännande sommarjobb. Med en profil ansöker du enkelt med ett klick.
                     </p>
                 </div>
 
                 <div id="what-we-do-3 " class="animated col-lg-4 col-md-6 col-sm-12 what-we-do-holder ">
                     <img style="width: 10%;" src="assets/img/icons/check-circle.svg">
-                    <h2>Intervju & anställning</h2>
+                    <h2>3. Intervju & anställning</h2>
                     <p>Vi hör av oss när du gått vidare i anställningsprocessen och det börjar bli dags för intervju.</p>
                 </div>
             </div>
@@ -124,7 +132,11 @@
 
             <div class="col-lg-6 text-column animated text-right-column ">
                 <h1>För ingenjörer, av ingenjörer</h1>
-                <p>När vi på Unga Ingenjörer påbörjade våra studier upptäckte vi att många av våra klasskamrater hade svårigheter att hitta lärorika och spännande sommarjobb. Vi såg ett behov av en plattform för att göra det enkelt för arbetsgivare och unga, drivna ingenjörsstudenter att mötas. Därför skapade vi Unga Ingenjörer med målet att hjälpa unga ingenjörer att kickstarta deras karriärer genom att erbjuda sommarjobb där de får jobba med någonting de tycker är intressant, roligt och lärorikt.
+                <p>Det enda sättet att göra ett bra jobb är att älska vad man gör. 2017 utfördes en undersökning som visade att 75% av alla svenskar är omotiverade på deras arbetsplatser. Varför är det så?
+                    <br>
+                    <br>När teamet bakom Unga Ingenjörer påbörjade deras universitetsstudier blev det uppenbart att många studenter hade svårt att hitta spännande sommarjobb som stämde överens med deras intressen. Detta resulterade i att många av dem istället jobbade med något som inte hade något med deras studier, intressen eller drömmar att göra vilket ofta gjorde dem olyckliga och mindre studiemotiverade.
+                    <br>
+                    <br> För att lösa detta problem grundades Unga Ingenjörer, ett praktikprogram med målet att öppna dörrar för ingenjörsstudenter att utforska deras intressen och kickstarta deras karriärer genom att matcha ihop dem med roliga, meningsfulla och lärorika sommarjobb.
                 </p>
 
             </div>

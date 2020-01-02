@@ -120,7 +120,7 @@ a.navbar-brand {
     border-radius: 6px;
     margin: 0;
     color: #fff !important;
-    background: #F5C634;
+    background: #FFD246;
     opacity: 1 !important;
     font-family: 'Open Sans', sans-serif;
 }
@@ -619,7 +619,7 @@ header .overlay {
 #vid-hero {
     padding: 30vh 0;
     color: white;
-    max-width: 650px;
+    max-width: 720px;
 }
 
 
@@ -638,7 +638,7 @@ header .overlay {
 
 .footer-container {
     padding: 75px 6%;
-    background-color: #F5C634 !important;
+    background-color: #2A2A2A !important;
 }
 
 #myFooter ul {
@@ -660,7 +660,6 @@ header .overlay {
     color: #fff !important;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: 'Varela Round', sans-serif !important;
 }
 
 .logo-column {
@@ -670,7 +669,7 @@ header .overlay {
 
 #myFooter a {
     text-decoration: none !important;
-    color: #fff !important;
+    color: #ccc !important;
     line-height: 1.5;
     font-size: 16px;
 }

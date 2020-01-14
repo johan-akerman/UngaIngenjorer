@@ -41,7 +41,6 @@ a.btn-border {
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 700;
-    padding: 12px 24px;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     text-align: center;
@@ -78,6 +77,14 @@ a.btn-border {
     margin-right: 16px;
 }
 
+.navbar-dark a.nav-link {
+    color: #000 !important;
+}
+
+.navbar-dark a.navbar-brand {
+    color: #000 !important;
+}
+
 .nav-item {
     padding: 10px 12.5px;
     font-size: 16px;
@@ -98,7 +105,7 @@ a.nav-link.active {
 }
 
 a.nav-text {
-    line-height: 33px;
+    line-height: 36px;
 }
 
 a.nav-link:hover {
@@ -185,7 +192,7 @@ a.btn-navbar {
 
 .hero-content h1 {
     font-size: 64px;
-    padding-bottom: 10px;
+    padding-bottom: 22px;
     font-weight: 400;
     color: white !important;
     font-family: 'Varela Round', sans-serif;
@@ -261,7 +268,7 @@ a.btn-navbar {
 
 .grid-content {
     margin: 0px auto 75px auto;
-    padding: 0px 10% 0px 10%;
+    padding: 0px 12% 0px 12%;
 }
 
 #home-image {
@@ -274,11 +281,6 @@ a.btn-navbar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#how-it-works-content {
-    margin: 125px auto 0px auto;
-    padding: 0px 15% 0px 15%;
 }
 
 .how-it-works-title {
@@ -301,7 +303,7 @@ a.btn-navbar {
 .grid-row {}
 
 .text-column {
-    padding-top: 46px;
+    padding-top: 100px;
     padding-bottom: 15px;
     padding-right: 100px !Important;
     padding-left: 0 !important;
@@ -319,6 +321,7 @@ a.btn-navbar {
 
 .text-column p {
     margin-bottom: 16px;
+    font-size: 18px;
 }
 
 .image-left-column {
@@ -464,7 +467,7 @@ a.btn-navbar {
 }
 
 .what-we-do-content {
-    padding: 100px 10% 50px 10%;
+    padding: 100px 5% 50px 5%;
     text-align: center;
 }
 
@@ -492,6 +495,11 @@ a.btn-navbar {
     font-size: 22px;
     margin-top: 16px;
     font-family: 'Varela Round', sans-serif;
+}
+
+.what-we-do-row img {
+    margin: 0 auto 16px auto;
+    max-width: 60%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -630,8 +638,8 @@ header .overlay {
 /* Footer section */
 
 .footer-container {
-    padding: 75px 6%;
-    background-color: #FFD246 !important;
+    padding: 75px 8%;
+    background-color: #33323d !important;
 }
 
 #myFooter ul {
@@ -725,4 +733,93 @@ section.pricing {
     background-color: #FFD246;
     padding: 1rem;
     transition: all 0.2s;
+}
+
+
+/* card section */
+
+.jobs-container {
+    background-color: #F7F8F9;
+}
+
+.jobs-container-content {
+    padding: 15vh 8% 15vh 8%;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 25px;
+    border-radius: 0 !important;
+    border: none !important;
+    text-decoration: none !Important;
+    background: #fff !important;
+}
+
+.card-img-top {
+    display: block;
+    border-radius: 0 !important;
+    width: 20% !important;
+    margin-bottom: 16px;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 20px;
+    border: none !important;
+}
+
+.card-title {
+    font-size: 22px;
+    color: #000;
+    font-weight: 300;
+}
+
+.press-card-title {
+    margin-bottom: 8px !important;
+    font-size: 26px;
+    margin-top: 0 !Important;
+}
+
+.experience {
+    color: #ddd;
+    padding-top: 16px;
+}
+
+.source {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+    opacity: 0.4;
+}
+
+a.btn-border.article {
+    border-radius: 100% !Important;
+    width: 32px;
+    height: 32px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 !important;
+}
+
+a.btn-border.article:hover {
+    background-color: #FFD246 !important;
+    border-color: #FFD246 !important;
+    color: black !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-container-content {
+        padding: 50px 15px 100px 15px;
+    }
+    .card-container-content h1 {
+        font-size: 28px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+    .press-row {}
 }

@@ -54,7 +54,7 @@ a.btn-border {
 }
 
 .btn-blue {
-    background-color: #F5C634;
+    background-color: #FFD246;
     border: none !important;
     color: white;
 }
@@ -69,17 +69,17 @@ a.btn-border {
 /* Navigation bar */
 
 .navbar {
-    padding: 10px 8% !important;
-    background-color: transparent;
+    padding: 8px 8% !important;
+    background-color: transparent !important;
 }
 
 .navbar-logo {
-    width: 42px !important;
+    width: 52px !important;
     margin-right: 16px;
 }
 
 .nav-item {
-    padding: 0px 12.5px;
+    padding: 10px 12.5px;
     font-size: 16px;
     text-align: center !important;
     letter-spacing: .07em;
@@ -88,26 +88,28 @@ a.btn-border {
 
 a.nav-link {
     padding: 4px;
-    color: #333 !important;
+    color: #fff !important;
     text-decoration: none;
-    opacity: 0.7;
 }
 
 a.nav-link.active {
     opacity: 1;
-    color: #F5C634 !important;
+    color: #FFD246 !important;
+}
+
+a.nav-text {
+    line-height: 33px;
 }
 
 a.nav-link:hover {
-    color: #F5C634 !important;
-    opacity: 1;
+    color: #FFD246 !important;
 }
 
 a.navbar-brand {
     font-size: 26px;
     padding-top: 8px;
     padding-right: 8px;
-    color: #333 !important;
+    color: white !important;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -116,9 +118,10 @@ a.navbar-brand {
 }
 
 .btn-navbar {
-    font-size: 13px !Important;
+    font-size: 16px;
     border-radius: 6px;
     margin: 0;
+    letter-spacing: .07em;
     color: #fff !important;
     background: #FFD246;
     opacity: 1 !important;
@@ -128,16 +131,12 @@ a.navbar-brand {
 a.btn-navbar {
     padding: 10px 20px !important;
     opacity: 1 !important;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .btn-navbar:hover {
-    background-color: #000 !important;
-    color: #fff !important;
-}
-
-a.btn-navbar:hover {
-    color: #fff !important;
+    background-color: #fff !important;
+    color: #FFD246 !important;
 }
 
 @media only screen and (max-width: 995px) {
@@ -190,6 +189,10 @@ a.btn-navbar:hover {
     font-weight: 400;
     color: white !important;
     font-family: 'Varela Round', sans-serif;
+}
+
+.hero-content p {
+    color: #ccc !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -261,6 +264,18 @@ a.btn-navbar:hover {
     padding: 0px 10% 0px 10%;
 }
 
+#home-image {
+    background-image: url("../img/austin-distel-wD1LRb9OeEo-unsplash.jpg");
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #how-it-works-content {
     margin: 125px auto 0px auto;
     padding: 0px 15% 0px 15%;
@@ -324,18 +339,6 @@ a.btn-navbar:hover {
 .how-it-works-column-text h1 {
     padding-top: 40px;
     font-size: 27px !important;
-}
-
-#home-image {
-    background-image: url("../img/austin-distel-wD1LRb9OeEo-unsplash.jpg");
-    border-radius: 17px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .image-column img {}
@@ -566,21 +569,12 @@ a.btn-navbar:hover {
 }
 
 header {
-    position: relative !important;
     background-color: black !important;
-    height: 91vh !important;
-    /*
-    margin-left: 10px;
-    margin-right: 10px !important;
-    border-radius: 10px;
-*/
-    padding-top: -50px;
+    height: 102vh !important;
     min-height: 25rem !important;
-    overflow: hidden !important;
 }
 
 header video {
-    position: absolute !important;
     top: 50% !important;
     left: 50% !important;
     min-width: 100% !important;
@@ -595,8 +589,13 @@ header video {
 }
 
 header .container {
-    position: relative !important;
     z-index: 2 !important;
+}
+
+header {
+    margin: 0 auto;
+    margin-top: -85px;
+    padding: 38vh 10% 0 10%;
 }
 
 header .container h1 {
@@ -616,12 +615,6 @@ header .overlay {
     z-index: 1 !important;
 }
 
-#vid-hero {
-    padding: 30vh 0;
-    color: white;
-    max-width: 720px;
-}
-
 
 /*
 @media (pointer: coarse) and (hover: none) {
@@ -638,7 +631,7 @@ header .overlay {
 
 .footer-container {
     padding: 75px 6%;
-    background-color: #2A2A2A !important;
+    background-color: #FFD246 !important;
 }
 
 #myFooter ul {
@@ -653,7 +646,7 @@ header .overlay {
 }
 
 #myFooter h5 {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 24px;
     margin-bottom: 8px;
     margin-top: 10px;
@@ -669,7 +662,7 @@ header .overlay {
 
 #myFooter a {
     text-decoration: none !important;
-    color: #ccc !important;
+    color: #fff !important;
     line-height: 1.5;
     font-size: 16px;
 }
@@ -722,8 +715,6 @@ section.pricing {
     margin-bottom: 1rem;
 }
 
-
-
 .pricing .text-muted {}
 
 .pricing .btn {
@@ -731,7 +722,7 @@ section.pricing {
     border-radius: 5rem;
     letter-spacing: .1rem;
     font-weight: bold;
-    background-color: #F5C634;
+    background-color: #FFD246;
     padding: 1rem;
     transition: all 0.2s;
 }

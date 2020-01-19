@@ -16,7 +16,7 @@ a {
 
 .section-title {
     text-align: center;
-    color: #1F2430;
+    color: #082333;
 }
 
 @media only screen and (max-width: 768px) {
@@ -29,11 +29,11 @@ a {
 /* Buttons */
 
 .btn-border {
-    border: 0.5px solid #1F2430 !important;
+    border: 0.5px solid #082333 !important;
     border-radius: 30px !important;
     font-size: 13px !Important;
     margin: 8px 8px 0 0;
-    color: #1F2430;
+    color: #082333;
     background: transparent;
 }
 
@@ -48,7 +48,7 @@ a.btn-border {
 }
 
 .btn-border:hover {
-    background-color: #1F2430 !important;
+    background-color: #082333 !important;
     color: #fff !important;
 }
 
@@ -69,7 +69,7 @@ a.btn-border {
 
 .navbar {
     padding: 8px 8% !important;
-    background-color: transparent !important;
+    background-color: white !important;
 }
 
 .navbar-logo {
@@ -79,6 +79,10 @@ a.btn-border {
 
 .navbar-dark a.nav-link {
     color: #000 !important;
+}
+
+.navbar-dark {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .03);
 }
 
 .navbar-dark a.navbar-brand {
@@ -142,8 +146,8 @@ a.btn-navbar {
 }
 
 .btn-navbar:hover {
-    background-color: #fff !important;
-    color: #FFD246 !important;
+    background-color: #082333 !important;
+    color: #fff !important;
 }
 
 @media only screen and (max-width: 995px) {
@@ -278,7 +282,7 @@ a.btn-navbar {
 }
 
 #grid-content-home-page {
-    background-color: #F4F4F4;
+    background-color: #fff;
     margin: 0px auto 0px auto;
     padding: 125px 12% 55px 12%;
 }
@@ -331,6 +335,7 @@ a.btn-navbar {
     padding-bottom: 15px;
     padding-right: 100px !Important;
     padding-left: 0 !important;
+    color: #082333
 }
 
 .image-column {
@@ -338,7 +343,7 @@ a.btn-navbar {
 }
 
 .text-column h1 {
-    color: #1F2430;
+    color: #082333;
     font-size: 40px;
     font-family: 'Varela Round', sans-serif;
 }
@@ -448,7 +453,7 @@ a.btn-navbar {
     cursor: default;
     font-size: 22px;
     font-family: 'Varela Round', sans-serif;
-    color: #1F2430 !important;
+    color: #082333 !important;
     text-align: left;
     font-weight: 300;
 }
@@ -459,7 +464,7 @@ a.btn-navbar {
 
 .card-header .article {
     float: right;
-    color: #1F2430;
+    color: #082333;
     text-align: center !important;
 }
 
@@ -493,11 +498,10 @@ a.btn-navbar {
 .what-we-do-content {
     padding: 100px 5% 50px 5%;
     text-align: center;
+    color: #082333
 }
 
-.what-we-do-holder p {
-    color: #333 !important;
-}
+.what-we-do-holder p {}
 
 .what-we-do-content h1 {
     font-size: 46px;
@@ -617,7 +621,6 @@ header .container {
 
 header {
     margin: 0 auto;
-    margin-top: -85px;
     padding: 38vh 10% 0 10%;
 }
 
@@ -693,7 +696,7 @@ header .container h1 {
 }
 
 section.pricing {
-    background: #082333;
+    background: #F5F7FA;
 }
 
 .pricing-container {
@@ -704,13 +707,13 @@ section.pricing {
 
 .pricing-container h1 {
     text-align: center;
-    color: #fff;
+    color: #082333;
     margin-top: 36px;
     font-size: 46px;
 }
 
 .pricing-container p {
-    color: white;
+    color: #082333;
     text-align: center;
     margin: 0 auto 45px auto;
     max-width: 650px;
@@ -754,11 +757,28 @@ section.pricing {
 /* card section */
 
 .jobs-container {
-    background-color: #F7F8F9;
+    background-color: #F5F7FA;
 }
 
 .jobs-container-content {
     padding: 15vh 8% 15vh 8%;
+    min-height: 80vh !important;
+}
+
+.job-listing {
+    background-color: #fff;
+    padding: 10px !Important;
+    margin: 0 auto;
+}
+
+.job-listing:hover {}
+
+.modal-job-description {
+    padding: 12px;
+}
+
+#test {
+    padding: 10px;
 }
 
 .card {
@@ -841,7 +861,7 @@ a.btn-border.article:hover {
 
 .company-content {
     margin: 0 auto;
-    padding-top: 25vh;
+    padding-top: 35vh;
     max-width: 900px;
     text-align: center;
 }
@@ -866,7 +886,17 @@ a.btn-border.article:hover {
     background-size: cover;
     background-position: bottom;
     width: 100%;
-    height: 85vh;
+    height: 90vh;
+}
+
+#for-company {
+    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.05), rgba(20, 21, 23, 1)), url("../img/company.jpg");
+    background-position: top;
+}
+
+#about {
+    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.05), rgba(20, 21, 23, 1)), url("../img/about.jpg");
+    background-position: center;
 }
 
 .about-company {

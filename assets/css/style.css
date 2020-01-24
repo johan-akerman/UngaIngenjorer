@@ -613,7 +613,7 @@ header {
     background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.05), rgba(20, 21, 23, 1)), url("../img/background.gif");
     background-position: top;
     background-size: cover;
-    height: 95vh !important;
+    height: 102vh !important;
     min-height: 25rem !important;
 }
 
@@ -891,14 +891,6 @@ a.btn-border.article:hover {
     height: 90vh;
 }
 
-#for-company {
-    background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.05), rgba(20, 21, 23, 1)), url("../img/foretag.gif");
-    background-position: top;
-    background-size: cover;
-    height: 95vh !important;
-    min-height: 25rem !important;
-}
-
 #about {
     background-image: linear-gradient(to bottom, rgba(20, 21, 23, 0.05), rgba(20, 21, 23, 1)), url("../img/about.jpg");
     background-position: center;
@@ -934,4 +926,34 @@ a.btn-border.article:hover {
 
 #volta-image-2 {
     background-image: url("../img/austin-distel-wD1LRb9OeEo-unsplash.jpg");
+}
+
+.for-company-container {
+    background-color: #FFD246 !important;
+    background-position: top;
+    background-size: cover;
+    text-align: left !important;
+    height: 85vh !important;
+    min-height: 25rem !important;
+}
+
+.for-company-content {
+    margin: 0 8% !important;
+    padding-top: 25vh;
+    text-align: left;
+}
+
+.for-company-content h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 42px;
+    max-width: 750px;
+    padding-top: 15vh;
+    margin: 0 auto;
+    color: white;
+}
+
+.for-company-content p {
+    max-width: 750px;
+    margin: 8px auto;
+    color: white;
 }

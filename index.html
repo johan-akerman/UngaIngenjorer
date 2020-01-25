@@ -25,12 +25,16 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-
-
-
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <!-- Optional JavaScript -->
@@ -39,169 +43,169 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <!--    Chart.js is open source and available under the MIT license. Read more at https://www.chartjs.org/-->
 
+    <!-- Chart.js is open source and available under the MIT license. Read more at https://www.chartjs.org/-->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </head>
 
-<body>
+<body onload="onLoadFunction()">
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/img/logo-yellow-white.svg">Unga Ingenjörer</a>
+    <nav class=" navbar fixed-top navbar-expand-lg navbar-light ">
+        <a class="navbar-brand " href="index.html "><img class="navbar-logo " src="assets/img/logo-yellow-white.svg ">Unga Ingenjörer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon "></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-
-
-                <li class="nav-item">
-                    <a class="nav-link nav-text " href="jobb.html">Lediga jobb</a>
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+                <li class="nav-item ">
+                    <a class="nav-link nav-text " href="jobb.html ">Lediga jobb</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link nav-text " href="arbetsgivare.html">Våra arbetsgivare</a>
+                <li class="nav-item ">
+                    <a class="nav-link nav-text " href="arbetsgivare.html ">Våra arbetsgivare</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link nav-text " href="om-oss.html">Om Unga Ingenjörer</a>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link nav-text " href="foretag.html">För företag</a>
+                <li class="nav-item ">
+                    <a class="nav-link nav-text " href="foretag.html ">För företag</a>
                 </li>
 
 
 
-                <li class="nav-item">
-                    <a class="nav-link btn-navbar typeform-share button" href="https://johankerman924416.typeform.com/to/hzoZZE" data-mode="popup" data-hide-headers="true" data-hide-footer="false" target="_blank">Gå med</a>
+                <li class="nav-item ">
+                    <a class="nav-link btn-navbar typeform-share button " href="https://johankerman924416.typeform.com/to/hzoZZE " data-mode="popup " data-hide-headers="true " data-hide-footer="false " target="_blank ">Gå med</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <header>
 
-        <div class="container">
 
+
+
+    <div class="hero-container">
+        <div class="hero-image">
             <div class="hero-content">
                 <h1>Vi förändrar arbetsmarknaden för ingenjörsstudenter</h1>
-                <p>Join Skillshare to watch, play, learn, make, and discover.</p>
+                <p>Unga Ingenjörer är en plattform som gör det enkelt för dig som ingenjörsstudent att prova på livet som ingenjör och kickstarta din karriär genom att matcha ihop dig med lärorika sommarjobb.
+                </p>
 
-                <a class="btn btn-navbar" href="jobb.html">Se lediga sommarjobb</a>
+                <a class="btn btn-navbar " href="jobb.html ">Se lediga sommarjobb</a>
             </div>
-
         </div>
+    </div>
 
-    </header>
 
     <!-- What we do Section -->
     <div class="what-we-do-container " id="what-we-do ">
         <div class="what-we-do-content ">
 
-            <h1 class="animated ">Hitta ditt drömjobb</h1>
-            <p class="text">Vi gör det enkelt för dig som ingenjörsstudent att utforska dina intressen och kickstarta din karriär genom att matcha ihop dig med ett sommarjobb som du älskar.</p>
+            <h1 class="animated ">Vi hjälper dig att hitta ett sommarjobb</h1>
+            <p class="text ">Vi gör det enkelt för dig som ingenjörsstudent att prova på livet som ingenjör, utforska dina intressen och kickstarta din karriär.
+            </p>
 
             <div class="row what-we-do-row ">
-                <div id="what-we-do-1 " class="animated col-lg-3 col-md-6 col-sm-12 what-we-do-holder ">
+                <div id="what-we-do-1 " class="animated col-lg-4 col-md-6 col-sm-12 what-we-do-holder ">
 
-                    <img class="img-fluid" src="assets/img/illustrations/undraw_online_cv.svg">
-                    <h2>1. Skapa en profil</h2>
-                    <p>Hos oss söker du enkelt jobb genom att skapa en professionellt profil. </p>
+                    <img class="img-fluid " src="assets/img/illustrations/undraw_online_cv.svg ">
+                    <h2>1. Skapa en professionell profil</h2>
+                    <p>Genom att skapa en profil gör vi det enkelt för dig att presentera dig själv, dina intressen och dina styrkor. </p>
                 </div>
 
-                <div id="what-we-do-2 " class="animated col-lg-3 col-md-6 col-sm-12 what-we-do-holder ">
-                    <img class="img-fluid" src="assets/img/illustrations/undraw_Memory_storage_reh0.svg">
-                    <h2>2. Sök lediga tjänster</h2>
-                    <p>På vår sida hittar du massvis med spännande företag och sommarjobb.</p>
+                <div class="animated col-lg-4 col-md-6 col-sm-12 what-we-do-holder ">
+                    <img class="img-fluid " src="assets/img/illustrations/undraw_Memory_storage_reh0.svg ">
+                    <h2>2. Sök lediga sommarjobb</h2>
+                    <p>Vi erbjuder noga utvalda sommarjobb på Sveriges häftigaste arbetsplatser där du får roliga och utmanande arbetsuppgifter.
+                    </p>
                 </div>
 
-                <div id="what-we-do-3 " class="animated col-lg-3 col-md-6 col-sm-12 what-we-do-holder ">
-                    <img class="img-fluid" src="assets/img/illustrations/undraw_video_call_kxyp.svg">
-                    <h2>3. Coachning</h2>
-                    <p>Vi hjälper dig att fixa till ditt CV och förbereder dig inför din intervju.</p>
-                </div>
-
-                <div class="animated col-lg-3 col-md-6 col-sm-12 what-we-do-holder ">
-                    <img class="img-fluid" src="assets/img/illustrations/undraw_interview_rmcf.svg">
-                    <h2>4. Intervju & anställning</h2>
-                    <p>Går du vidare i processen så hör vi av oss och kallar dig på en intervju.</p>
+                <div class="animated col-lg-4 col-md-6 col-sm-12 what-we-do-holder ">
+                    <img class="img-fluid " src="assets/img/illustrations/undraw_interview_rmcf.svg ">
+                    <h2>3. Intervju och anställning</h2>
+                    <p>När du går vidare i rekryteringsprocessen kopplar vi ihop dig med företaget och förbereder dig inför din intervju.</p>
                 </div>
             </div>
 
-            <a class="btn btn-navbar" href="studenter.html">Gå med</a>
+            <a class="btn btn-navbar " href="studenter.html ">Gå med</a>
         </div>
     </div>
 
 
 
-    <div class="grid-content" id="grid-content-home-page">
+
+    <div class="grid-content" id="grid-content-home-page ">
         <div class="row grid-row ">
 
-            <div class="col-lg-5 text-column animated text-right-column ">
-                <h1>Vad vill du jobba med i sommar?</h1>
-                <p>Explore new skills, deepen existing passions, and get lost in creativity. What you find just might surprise and inspire you.
-                </p>
 
-                <a class="btn btn-navbar" href="jobb.html">Se lediga jobb</a>
 
-            </div>
-            <div class="col-lg-7 image-column animated image-left-column ">
-                <img src="assets/img/mockup.svg" class="img-fluid">
+            <div class="col-lg-6 text-column animated text-right-column ">
+                <h1>Vår vision</h1>
+                <p> 2017 utfördes en undersökning av Gallup som visade på att 75% av alla svenskar är oengagerade och omotiverade på jobbet. Vårt mål är att förändra detta genom att hjälpa unga ingenjörer att hitta meningsfulla, lärorika och roliga sommarjobb. Genom att låta studenter prova på och utforska deras intressen redan under studietiden hoppas vi att vi kan hjälpa dem att kickstarta deras karriärer i rätt riktning. </p>
+
+                <button type="button" id="btn-for-chart1" class="btn btn-border">Graf 1</button>
+                <button type="button" id="btn-for-chart2" class="btn btn-border">Graf 2</button>
 
             </div>
 
-
+            <div class="col-lg-6 image-column animated image-left-column ">
+                <div class="chart-container animated ">
+                    <canvas id="myChart1" width="400" height="400 "></canvas>
+                    <canvas id="myChart2" width="400" height="400 "></canvas>
+                </div>
+            </div>
         </div>
     </div>
 
+    <section class="pricing ">
+        <div class=" pricing-container ">
+            <h1>Win-win för studenter och arbetsgivare</h1>
+            <p>Vi gör det enkelt för drivna ingenjörsstudenter och häftiga företag att mötas.</p>
+            <div class="row ">
 
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card mb-5 mb-lg-0 pricing-card ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">För studenter</h5>
 
-    <section class="pricing py-5">
-        <div class=" pricing-container">
-            <h1>Redo att komma igång?</h1>
-            <p>Skillshare teachers are icons, experts, and industry rock stars excited to share their experience, wisdom, and trusted tools with you.</p>
-            <div class="row">
-                <!-- Free Tier -->
-                <div class="col-lg-6">
-                    <div class="card mb-5 mb-lg-0 pricing-card">
-                        <div class="card-body">
-                            <h5 class="card-title">För studenter</h5>
+                            <ul class="fa-ul ">
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Få hjälp att hitta ett sommarjobb på Sveriges häftigaste företag. Helt gratis. </li>
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Prova på livet som ingenjör, utforska dina intressen och accelerera ditt lärande.
 
-                            <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Få ett sommarjobb på Sveriges häftigaste arbetsplatser. </li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Få hjälp att landa ditt drömjobb helt gratis.
                                 </li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Upptäck nya intressen</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Kickstarta din karriär
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Kickstarta din karriär och knyt värdefulla kontakter.
                                 </li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Gå med i vårt community där vi delar med oss av tips.</li>
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Bli en del av vårt community. Få hjälp med alltifrån CV till tips inför intervjun.
+
+                                </li>
+
                             </ul>
-                            <div class="btn-container-pricing">
-                                <a class="btn btn-navbar" href="" target="_blank">Gå med</a>
+                            <div class="btn-container-pricing ">
+                                <a class="btn btn-navbar " href=" " target="_blank ">Gå med</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Plus Tier -->
-                <div class="col-lg-6">
-                    <div class="card mb-5 mb-lg-0 pricing-card">
-                        <div class="card-body">
-                            <h5 class="card-title">För företag</h5>
+                <div class="col-lg-6 ">
+                    <div class="card mb-5 mb-lg-0 pricing-card ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">För företag</h5>
 
-                            <ul class="fa-ul">
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Få tillgång till handplockade topp studenter</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Hitta er nästa supertalang
+                            <ul class="fa-ul ">
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Vi handplockar och presenterar de bäst lämpade talangerna som passar era behov.</li>
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Stärk ert varumärke och presentera er själva med en karriärsida och jobbannonser.
+
                                 </li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Skapa en företagsprofil och marknadsför er gratis
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Nå er ideala målgrupp på ett och samma ställe.
+
                                 </li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Publicera gratis jobbannonser och nå ut till er ideala målgrupp</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Helt gratis tills ni anställer någon
+                                <li><span class="fa-li "><i class="fas fa-check "></i></span>Betala per rekrytering och betala inte förrän ni har anställt någon.
                                 </li>
+
 
                             </ul>
-                            <div class="btn-container-pricing">
-                                <a class="btn btn-navbar" href="foretag.html">Läs mer</a>
+                            <div class="btn-container-pricing ">
+                                <a class="btn btn-navbar " href="foretag.html ">Läs mer</a>
                             </div>
                         </div>
                     </div>
@@ -210,19 +214,6 @@
             </div>
         </div>
     </section>
-
-
-    <!--
-    <div class="banner-container ">
-        <div class="banner-content ">
-
-            <h1>Är du redo att kickstarta din karriär?</h1>
-            <p>Snart hittar du massvis med spännande sommarjobb på vår plattform. Låter detta intressant? Gå med redan nu så hör vi av oss när det är dags.
-            </p>
-            <a class="btn btn-navbar typeform-share button" href="https://johankerman924416.typeform.com/to/hzoZZE" data-mode="popup" data-hide-headers="true" data-hide-footer="false" target="_blank">Gå med</a>
-        </div>
-    </div>
--->
 
     <!-- Footer section -->
     <footer id="myFooter">
@@ -256,12 +247,6 @@
                     </ul>
                 </div>
 
-
-
-
-
-
-
                 <div class="col-sm-12 col-md-2 ">
                     <h5>Kontakt</h5>
                     <ul>
@@ -274,25 +259,307 @@
         </div>
     </footer>
 
+
     <script>
-        (function ()
+        function onLoadFunction()
         {
-            var qs, js, q, s, d = document,
-                gi = d.getElementById,
-                ce = d.createElement,
-                gt = d.getElementsByTagName,
-                id = "typef_orm_share",
-                b = "https://embed.typeform.com/";
-            if (!gi.call(d, id))
+            $('#myChart2').hide();
+
+            $('#btn-for-chart1').addClass('active');
+
+        }
+
+
+        $('#btn-for-chart1').click(
+            function ()
             {
-                js = ce.call(d, "script");
-                js.id = id;
-                js.src = b + "embed.js";
-                q = gt.call(d, "script")[0];
-                q.parentNode.insertBefore(js, q)
+                $('#myChart1').show();
+                $('#myChart2').hide();
+                $('#btn-for-chart1').addClass('active');
+                $('#btn-for-chart2').removeClass('active');
+
+                var ctx = document.getElementById('myChart1').getContext('2d');
+                var myChart1 = new Chart(ctx,
+                {
+                    type: 'bar',
+                    data:
+                    {
+                        labels: ['China', 'United States', 'Republic of Cattle', 'India'],
+
+                        datasets: [
+                            {
+
+                                data: [10.2, 5.3, 5.0, 2.5],
+                                backgroundColor: [
+                    'rgba(245, 247, 250, 1)',
+                  'rgba(245, 247, 250, 1)',
+                    'rgba(204, 205, 204, 1)',
+               'rgba(245, 247, 250, 1)',
+
+            ],
+
+                                borderWidth: 1
+        }]
+                    },
+
+
+
+
+                    options:
+                    {
+
+
+
+                        legend:
+
+
+                        {
+                            display: false
+                        },
+
+                        labels:
+                        {
+                            fontColor: "black",
+                            fontSize: "18"
+                        },
+
+                        title:
+                        {
+                            display: true,
+                            fontColor: "black",
+                            fontSize: "15",
+
+                            text: 'Gigatons of CO2 emissions per year',
+                            position: "bottom",
+                        },
+                        scales:
+                        {
+
+
+                            xAxes: [
+                                {
+                                    gridLines:
+                                    {
+
+                                        display: false,
+                                        color: "#333",
+
+                                    },
+                                    ticks:
+                                    {
+                                        fontColor: "black",
+                                        fontSize: "14"
+
+                                    },
+            }],
+                            yAxes: [
+                                {
+
+
+
+                                    gridLines:
+                                    {
+                                        display: true,
+                                        color: 'rgba(204, 204, 204, 0.1)',
+
+                                    },
+
+
+                                    ticks:
+                                    {
+                                        beginAtZero: true,
+                                        fontColor: "#ccc",
+                                    }
+            }]
+                        }
+                    }
+                });
+
             }
-        })()
+        );
+
+        $('#btn-for-chart2').click(
+            function ()
+            {
+                $('#myChart1').hide();
+                $('#myChart2').show();
+                $('#btn-for-chart2').addClass('active');
+                $('#btn-for-chart1').removeClass('active');
+
+                var ctx = document.getElementById('myChart2').getContext('2d');
+                var myChart2 = new Chart(ctx,
+                {
+                    type: 'bar',
+                    data:
+                    {
+                        labels: ['Cows', 'Airplanes'],
+                        datasets: [
+                            {
+
+                                data: [4, 2],
+                                backgroundColor: [
+                   'rgba(204, 205, 204, 1)',
+                       'rgba(245, 247, 250, 1)',
+            ],
+
+                                borderWidth: 1
+        }]
+                    },
+
+
+                    options:
+                    {
+
+                        legend:
+                        {
+                            display: false
+                        },
+
+                        title:
+                        {
+                            display: true,
+                            fontColor: "black",
+                            fontSize: "15",
+                            text: '% of global greenhouse gas emissions',
+                            position: "bottom",
+                        },
+                        scales:
+                        {
+
+
+                            xAxes: [
+                                {
+                                    gridLines:
+                                    {
+                                        display: false,
+                                        color: "#333",
+
+                                    },
+                                    ticks:
+                                    {
+                                        fontColor: "black",
+                                        fontSize: "14"
+
+                                    },
+            }],
+                            yAxes: [
+                                {
+
+
+
+                                    gridLines:
+                                    {
+                                        display: true,
+                                        color: 'rgba(204, 204, 204, 0.1)',
+
+                                    },
+
+
+                                    ticks:
+                                    {
+                                        beginAtZero: true,
+                                        fontColor: "#ccc",
+                                    }
+            }]
+                        }
+                    }
+                });
+            }
+        );
     </script>
+
+    <script>
+        var ctx = document.getElementById('myChart1').getContext('2d');
+        var myChart1 = new Chart(ctx,
+        {
+            type: 'bar',
+            data:
+            {
+                labels: ['China', 'United States', 'Republic of Cattle', 'India'],
+                datasets: [
+                    {
+
+                        data: [10.2, 5.3, 5.0, 2.5],
+                        backgroundColor: [
+                    'rgba(245, 247, 250, 1)',
+                  'rgba(245, 247, 250, 1)',
+                    'rgba(255, 210, 70, 1)',
+               'rgba(245, 247, 250, 1)',
+
+            ],
+
+                        borderWidth: 1
+        }]
+            },
+
+
+
+
+            options:
+            {
+
+
+
+                legend:
+                {
+                    display: false
+                },
+
+                title:
+                {
+                    display: true,
+                    fontColor: "black",
+                    fontSize: "15",
+                    text: 'Gigatons of CO2 emissions per year',
+                    position: "bottom",
+                },
+                scales:
+                {
+
+
+                    xAxes: [
+                        {
+                            gridLines:
+                            {
+                                display: false,
+                                color: "#333",
+
+                            },
+                            ticks:
+                            {
+                                fontColor: "black",
+                                fontSize: "14"
+
+                            },
+            }],
+                    yAxes: [
+                        {
+
+
+
+                            gridLines:
+                            {
+                                display: true,
+                                color: 'rgba(204, 204, 204, 0.1)',
+
+                            },
+
+
+                            ticks:
+                            {
+                                beginAtZero: true,
+                                fontColor: "#ccc",
+                            }
+            }]
+                }
+            }
+        });
+    </script>
+
+
+
 </body>
+
+
 
 </html>
